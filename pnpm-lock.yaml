@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  apps/demo:
     dependencies:
       '@react-router/node':
         specifier: ^7.1.3
